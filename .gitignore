@@ -1,0 +1,4 @@
+node_modules/
+site-check/
+.DS_Store
+*.log

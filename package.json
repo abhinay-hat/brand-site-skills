@@ -1,0 +1,8 @@
+{
+  "name": "brand-site-skills",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude Code skills for building a brand and its website, plus a Behance research MCP server",
+  "dependencies": { "playwright-core": "1.64.1" }
+}
