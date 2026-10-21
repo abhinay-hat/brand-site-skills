@@ -1,6 +1,6 @@
 ---
 name: brand-builder
-description: Build a brand identity with the owner, from taste test to locked logo kit. Runs an indirect taste test, gathers references from Behance (and a saved-reels vault if present), iterates logo, wordmark, colour and tagline options as live HTML boards, then locks the mark and exports an SVG/PNG kit plus DESIGN.md.
+description: Build a brand identity with the owner, from taste test to locked logo kit. Researches the product, buyer and category first, runs a taste test written for that brand, gathers references from Behance (and a saved-reels vault if present), iterates logo, wordmark, colour and tagline options as live HTML boards, then locks the mark and exports an SVG/PNG kit plus DESIGN.md.
 when_to_use: Use when asked to design a logo, create a brand or brand identity, pick brand colours, fonts or a tagline, or "make the branding". Not for building the website itself (use site-builder after this).
 argument-hint: "[brand name] [project folder]"
 ---
@@ -16,14 +16,25 @@ A brand comes from the owner's taste, not from the agent's defaults. This skill 
 3. Load the anti-AI-look skills if installed: `antislop`, `antislop-ui`, `antislop-copywriting`, `antislop-human`. Announce the mode once.
 4. Output goes to `brand/logo/` (option boards) and `brand/kit/` (final files). Keep old systems in `brand/archive-<name>/`, never delete them.
 
-## Step 1. Taste test (do this before showing any logo)
+## Step 1. Research first, then a taste test written for this brand
 
-Showing logos first fails: the owner rejects them without being able to say why. Ask 8 indirect questions with the question tool, in two rounds of 4. Each option is a real thing, not a design term.
+Do the homework before asking anything. Questions the agent could have answered itself waste the owner's patience, and a fixed question list gives every brand the same answers.
 
-- Round 1: a watch (heritage diver / plain digital / Bauhaus dial / smartwatch), a building (old stone fort / raw concrete / glass tower / exposed brick), a fruit (mango / pomegranate / green apple / lemon), a notebook (graph paper / plain black / handmade paper / tablet).
-- Round 2: a map (night satellite / clean vector / data heatmap / drone photo), a car (EV / German executive / rugged local / iconic sports), a material (brushed aluminium / polished brass / matte black glass / terracotta), an app they admire (Stripe / Linear / a trusted local fintech / a dense trading terminal).
+**1a. Research (no questions yet).** Write `brand/research/brief.md` with:
+- The product: what it sells, price band, how it is bought (walk-in, app, sales call, enrolment).
+- The buyer: who decides, who pays, their age, city, language, what they fear and want. Read the live site, reviews (Google, Justdial, app stores), social pages and any `PRODUCT.md`.
+- The category: 4 to 6 real competitors, with how each looks (colour, mark type, tone) and the visual clichés the category is stuck in (for example every IT institute uses blue, a graduation cap and a laptop).
+- The existing brand, if any: what is already recognised and worth keeping, what is weak.
+- Gaps: only what research could not answer.
 
-Translate the answers into a 4-row profile table (for example: modern tech, precision, local warmth, ground truth) with what each means for the logo. Show it to the owner before round 1 of logos. Adapt the options to the owner's country and market.
+**1b. Taste test, generated per brand.** Never reuse a stock list of questions; write new ones from the brief every time. Ask 6 to 8 indirect questions with the question tool, in two rounds of 3 to 4.
+- Every option is a real, concrete thing from the buyer's or owner's world (for a coaching institute: classrooms, notebooks, mentors, phones students carry; for a coffee brand: cafés, cups, mornings), local to their country and city. Not design terms.
+- Each question tests one axis that is still open after research, for example: premium vs approachable, heritage vs new, calm vs energetic, warm vs cool, dense vs airy, local vs global. Name the axis in your notes, not on the question.
+- Include 1 or 2 questions about the category clichés from 1a ("which of these feels most like you" with real competitor-style examples) so the owner says what to break away from.
+- When evolving an existing brand, ask first which parts to keep (mark, colour, type, tagline, tone), and spend the taste test only on the parts that will change.
+- Skip any question the research already answered. If the owner rejects a round of questions, change the questions; do not re-ask the same ones in new words.
+
+Translate the answers into a 4-row profile table (axis, the owner's pick, what it means for the mark, what it means for colour and type), backed by the brief. Show it to the owner before round 1 of logos.
 
 ## Step 2. References
 

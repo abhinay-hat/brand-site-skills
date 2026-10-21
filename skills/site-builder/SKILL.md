@@ -17,10 +17,15 @@ Rebuilding a page blind wastes rounds. This skill asks first, shows options seco
 
 ## Step 1. Ask before building
 
-Ask three questions with the question tool:
-- What feels wrong today (generic, too dark or heavy, wrong message, not enough wow)? Multi-select.
-- The first-3-seconds feeling (premium and trustworthy, futuristic tech, simple and clear, local and warm).
-- 1 to 3 real sites they love, as URLs. Offer well-known examples as options and ask for URLs in "Other".
+Research before asking: read `DESIGN.md`, the current site (screenshot it), the product brief (`brand/research/brief.md` if brand-builder ran) and 3 to 4 competitor sites. Note who visits, what they must do on the page (enrol, book a call, buy), and what the current page gets wrong.
+
+Then ask 3 to 4 questions with the question tool, written for this site from that research. Never a stock list:
+- What feels wrong today, with options taken from the problems you found (multi-select).
+- The first-3-seconds feeling, with options that fit this buyer and category.
+- The one action a visitor must take, if research left it unclear.
+- 1 to 3 real sites they love, as URLs. Offer sites relevant to their category as options and ask for URLs in "Other".
+
+Skip anything research already answered.
 
 If the owner later says "I don't like it", do not guess again: ask these questions again, and ask them to circle the part they dislike.
 
